@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="30dp"
+    android:padding="30dp"
+    android:background="#E1D14F"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/edtNgay"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ngày thi"/>
+    <EditText
+        android:id="@+id/edtCa"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ca thi"/>
+    <EditText
+        android:id="@+id/edtPhong"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phòng thi"/>
+    <EditText
+        android:id="@+id/edtMon"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Môn thi"/>
+
+    <Button
+        android:id="@+id/btnOK"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OK"/>
+
+
+
+</LinearLayout>
